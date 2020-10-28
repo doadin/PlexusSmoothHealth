@@ -48,7 +48,7 @@ end
 
 local PlexusFrame = Plexus:GetModule("PlexusFrame")
 
-local function InitializeFrame(self, frame)
+local function InitializeFrame(_, frame)
 	LibSmooth:SmoothBar(frame.indicators.bar)
 end
 
