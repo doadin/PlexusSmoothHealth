@@ -7,7 +7,7 @@
 ## Version: @project-version@
 ## Title: PlexusSmoothHealth
 ## Notes: Smoothly animates health bars on Plexus.
-## Dependencies: Plexus, LibStub, LibSmoothStatusBar-2.0
+## Dependencies: Plexus
 ## Author: Doadin
 ## X-Credits: Galedric
 ## X-License: MIT License
@@ -15,8 +15,8 @@
 ## X-Curse-Project-ID: 416030
 
 #@no-lib-strip@
-LibStub\LibStub.lua
-LibSmoothStatusBar-2.0\LibSmoothStatusBar-2.0.lua
+Libs\LibStub\LibStub.lua
+Libs\LibSmoothStatusBar-2.0\LibSmoothStatusBar-2.0.lua
 #@end-no-lib-strip@
 
 PlexusSmoothHealth.lua
