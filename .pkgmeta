@@ -1,0 +1,19 @@
+package-as: PlexusSmoothHealth
+
+enable-nolib-creation: yes
+
+externals:
+   Libs/LibStub:
+      url: https://repos.curseforge.com/wow/libstub/trunk
+      tag: 1.0
+   Libs/LibSmoothStatusBar-2.0:
+     url: https://github.com/doadin/LibSmoothStatusBar-2.0.git
+     tag: main
+
+ignore:
+  - .luacheckrc
+  - .travis.yml
+  - appveyor.yml
+  - README.md
+  - .github/ISSUE_TEMPLATE/bug_report.md
+  - .github/ISSUE_TEMPLATE/feature_request.md

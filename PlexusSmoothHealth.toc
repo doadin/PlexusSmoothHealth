@@ -1,0 +1,22 @@
+#@retail@
+## Interface: 90001
+#@end-retail@
+#@non-retail@
+## Interface: 11305
+#@end-non-retail@
+## Version: @project-version@
+## Title: PlexusSmoothHealth
+## Notes: Smoothly animates health bars on Plexus.
+## Dependencies: Plexus, LibStub, LibSmoothStatusBar-2.0
+## Author: Doadin
+## X-Credits: Galedric
+## X-License: MIT License
+## X-Website: https://wow.curseforge.com/projects/plexussmoothhealth/
+## X-Curse-Project-ID: 416030
+
+#@no-lib-strip@
+LibStub\LibStub.lua
+LibSmoothStatusBar-2.0\LibSmoothStatusBar-2.0.lua
+#@end-no-lib-strip@
+
+PlexusSmoothHealth.lua
