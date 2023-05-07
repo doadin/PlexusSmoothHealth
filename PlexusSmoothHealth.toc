@@ -13,6 +13,8 @@
 ## X-Website: https://wow.curseforge.com/projects/plexussmoothhealth/
 ## X-Curse-Project-ID: 416030
 
+## IconTexture: Interface\AddOns\Plexus\Media\icon
+
 #@no-lib-strip@
 Libs\LibStub\LibStub.lua
 Libs\LibSmoothStatusBar-2.0\LibSmoothStatusBar-2.0.lua
